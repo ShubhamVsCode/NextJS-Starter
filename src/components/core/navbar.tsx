@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className='flex justify-between items-center py-5 px-20 border-b'>
       <Link href='/' className='text-xl font-semibold'>
-        <span>Stream Sphere</span>
+        <span>Start</span>
       </Link>
       <div className='flex gap-5 items-center'>
         {links.map(({ href, label }) => (
